@@ -1,0 +1,222 @@
+/* ── Login Screen ─────────────────────────────────────────── */
+.loginWrap {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  padding: 24px;
+}
+
+.loginCard {
+  width: 100%;
+  max-width: 380px;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 40px 32px;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+}
+
+.lockIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--accent-bg);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
+.loginTitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-1);
+}
+
+.loginSub {
+  font-size: 0.85rem;
+  color: var(--text-3);
+  line-height: 1.5;
+}
+
+.loginInput {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text-1);
+  outline: none;
+  text-align: center;
+  letter-spacing: 0.1em;
+  transition: border-color var(--t);
+}
+.loginInput:focus { border-color: var(--accent); }
+
+.loginError {
+  font-size: 0.78rem;
+  color: #DC2626;
+  font-weight: 500;
+}
+
+.loginBtn { width: 100%; justify-content: center; }
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8rem;
+  color: var(--text-4);
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 4px;
+  transition: color var(--t);
+}
+.backLink:hover { color: var(--accent); }
+
+/* ── Dashboard ────────────────────────────────────────────── */
+.wrap {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 32px 24px 80px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.backBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-3);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  transition: all var(--t);
+}
+.backBtn:hover { background: var(--bg-subtle); color: var(--text-1); }
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-1);
+  flex: 1;
+}
+
+.count {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-4);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  padding: 3px 10px;
+  border-radius: 99px;
+}
+
+.actions { display: flex; gap: 8px; }
+
+.actionBtn { font-size: 0.78rem; padding: 7px 14px; }
+
+.danger { color: #DC2626; border-color: #FECACA; }
+.danger:hover { background: #FEF2F2; border-color: #DC2626; color: #DC2626; }
+
+/* ── Empty state ──────────────────────────────────────────── */
+.empty {
+  text-align: center;
+  padding: 80px 0;
+  color: var(--text-4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.empty p { font-size: 0.9rem; }
+
+/* ── Response cards ───────────────────────────────────────── */
+.list { display: flex; flex-direction: column; gap: 12px; }
+
+.card {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  box-shadow: var(--shadow-xs);
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.cardMeta { display: flex; flex-direction: column; gap: 4px; }
+
+.metaItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  color: var(--text-2);
+  font-weight: 500;
+}
+.metaItem a { font-weight: 400; }
+
+.cardRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.7rem;
+  color: var(--text-4);
+  white-space: nowrap;
+}
+
+.deleteBtn {
+  background: none;
+  border: none;
+  color: var(--text-4);
+  cursor: pointer;
+  padding: 4px;
+  border-radius: var(--radius-sm);
+  transition: all var(--t);
+}
+.deleteBtn:hover { color: #DC2626; background: #FEF2F2; }
+
+.message {
+  font-size: 0.88rem;
+  color: var(--text-2);
+  line-height: 1.7;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+  white-space: pre-wrap;
+}

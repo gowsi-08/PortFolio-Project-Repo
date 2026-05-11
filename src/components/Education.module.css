@@ -1,0 +1,103 @@
+.altBg { background: var(--bg-subtle); }
+
+.list { display: flex; flex-direction: column; gap: 20px; }
+
+.card {
+  display: flex;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* Left color strip */
+.strip {
+  width: 4px;
+  flex-shrink: 0;
+}
+
+.inner {
+  flex: 1;
+  padding: 22px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.institution {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-1);
+  margin-bottom: 5px;
+}
+
+.degree {
+  font-size: 0.865rem;
+  color: var(--text-2);
+  margin-bottom: 6px;
+}
+
+.degree em {
+  font-style: normal;
+  color: var(--text-3);
+}
+
+.meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.75rem;
+  color: var(--text-4);
+}
+
+.right { text-align: right; flex-shrink: 0; }
+
+.yearRange {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--text-4);
+  margin-bottom: 5px;
+}
+
+.cgpa {
+  font-family: var(--mono);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.highlights {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.highlight {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 0.845rem;
+  color: var(--text-2);
+}
+
+.bullet {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+@media (max-width: 560px) {
+  .top { flex-direction: column; }
+  .right { text-align: left; }
+}

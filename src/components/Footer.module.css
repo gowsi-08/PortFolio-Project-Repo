@@ -1,0 +1,41 @@
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 28px 0;
+  background: var(--bg-alt);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.brand { display: flex; flex-direction: column; gap: 3px; }
+
+.logo {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-1);
+  letter-spacing: -0.01em;
+}
+
+.bracket { color: var(--accent); }
+
+.copy {
+  font-size: 0.72rem;
+  color: var(--text-4);
+}
+
+.socials { display: flex; gap: 10px; }
+
+.socials a {
+  color: var(--text-3);
+  transition: color var(--t), transform var(--t);
+  display: flex;
+}
+.socials a:hover {
+  color: var(--accent);
+  transform: translateY(-2px);
+}

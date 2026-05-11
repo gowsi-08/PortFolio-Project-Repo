@@ -1,0 +1,265 @@
+# ============================================================
+#  PORTFOLIO DATA — edit this file to update your portfolio
+#  All sections are self-documented with inline comments
+# ============================================================
+
+# ── PERSONAL INFO ────────────────────────────────────────────
+personal:
+  name: "Gowsalya A"
+  tagline: "Full-Stack Developer"
+  subtitle: "B.E. Computer Science & Engineering "
+  avatar_url: "https://avatars.githubusercontent.com/gowsi-08"   # Replace with your photo URL
+  location: "Virudhunagar, Tamil Nadu, India"
+  open_to_work: true
+  resume_url: "/resume.pdf"    # Place your resume.pdf in the /public folder
+
+  github: "https://github.com/gowsi-08"
+  linkedin: "https://www.linkedin.com/in/gowsalya-anantharaj-653723280/"
+  email: "gowsalyaanantharaj@gmail.com"
+  twitter: ""
+
+# ── ABOUT ────────────────────────────────────────────────────
+about:
+  bio: >
+    I'm a Computer Science and Engineering graduate who enjoys programming and building websites.
+    I've gained strong foundations in full-stack web development and AWS through internship at Priga Solutions
+    and as a project trainee at Zoho Corporation and through lots of self learning. I'm passionate about learning new technologies and
+    always looking to improve my skills. I'm eager to work on challenging projects beyond my current
+    knowledge — they offer the best opportunities to learn deeply and grow. Currently building a
+    project integrated with ML-based data processing.
+  highlights:
+    - "240+ problems solved on LeetCode"
+    - "Ranked #7 at institution on GeeksForGeeks (180+ problems)"
+    
+
+# ── SKILLS ───────────────────────────────────────────────────
+skills:
+  - category: "Languages"
+    icon: "💻"
+    items:
+      - name: "Java"
+        icon: "devicon-java-plain"
+        level: 80
+     
+      - name: "JavaScript"
+        icon: "devicon-javascript-plain"
+        level: 80
+
+  - category: "Frontend"
+    icon: "🎨"
+    items:
+      - name: "HTML"
+        icon: "devicon-html5-plain"
+        level: 90
+      - name: "CSS"
+        icon: "devicon-css3-plain"
+        level: 85
+      - name: "React.js"
+        icon: "devicon-react-original"
+        level: 90
+
+  - category: "Backend"
+    icon: "⚙️"
+    items:
+      - name: "Node.js"
+        icon: "devicon-nodejs-plain"
+        level: 80
+      - name: "Express.js"
+        icon: "devicon-express-original"
+        level: 78
+      
+      - name: "AWS"
+        icon: "devicon-amazonwebservices-original"
+        level: 58
+
+  - category: "Databases"
+    icon: "🗄️"
+    items:
+      - name: "MySQL"
+        icon: "devicon-mysql-plain"
+        level: 78
+      - name: "MongoDB"
+        icon: "devicon-mongodb-plain"
+        level: 80
+      - name: "PostgreSQL"
+        icon: "devicon-postgresql-plain"
+        level: 70
+
+  - category: "Tools & Platforms"
+    icon: "🛠️"
+    items:
+      - name: "Git"
+        icon: "devicon-git-plain"
+        level: 85
+      - name: "GitHub"
+        icon: "devicon-github-original"
+        level: 85
+      - name: "Postman"
+        icon: "devicon-postman-plain"
+        level: 78
+
+  - category: "OS"
+    icon: "🛠️"
+    items:
+      - name: "Linux"
+        icon: "devicon-linux-plain"
+        level: 72
+
+# ── EXPERIENCE / INTERNSHIPS ─────────────────────────────────
+experience:
+  - company: "Zoho Corporation"
+    role: "Project Trainee"
+    duration: "Dec 2025 – Jan 2026"
+    location: "Madurai, Tamil Nadu"
+    logo_color: "#E42527"
+    logo_asset: "zoho.png"   # drop zoho.png into src/assets/ to show the logo
+    description:
+      - "Gained hands-on experience with core features of the Windows operating system including Active Directory, and Win32 API."
+      - "Worked primarily in C++ to interface with low-level Windows system APIs."
+      - "Explored enterprise-grade software tooling and internal product architecture."
+    tech_stack:
+      - "C++"
+      - "Win32 API"
+      - "Active Directory"
+      - "Windows OS"
+
+  - company: "Priga Solutions"
+    role: "Full Stack Intern"
+    duration: "May 2024"
+    location: "Virudhunagar, Tamil Nadu"
+    logo_color: "#00B4D8"
+    logo_asset: "priga.png"  # drop priga.png into src/assets/ to show the logo
+    description:
+      - "Developed full-stack web modules using the MERN stack (MongoDB, Express, React, Node.js)."
+      - "Gained clarity on internal business tools and project management workflows such as Jira."
+      - "Collaborated with the team to design and implement backend REST API routes."
+    tech_stack:
+      - "React"
+      - "Node.js"
+      - "Express.js"
+      - "MongoDB"
+      
+
+# ── PROJECTS ─────────────────────────────────────────────────
+projects:
+
+  - title: "Happy Tails"
+    description: "A web-based pet adoption platform to help users adopt and rescue pets. Features include pet listing, adoption forms, and an admin panel. Won Top 4 Under 30 at Mini Technovision 2025."
+    tech_stack:
+      - "React"
+      - "Node.js"
+      - "MongoDB"
+      - "Express.js"
+    github_url: "https://github.com/gowsi-08"
+    live_url: ""
+    featured: true
+    thumbnail: "🐾"
+
+
+
+  - title: "Files to Word — VS Code Extension"
+    description: "A custom VS Code extension that converts selected files directly into Word (.docx) format from within the editor. Published on the VS Code Marketplace."
+    tech_stack:
+      - "TypeScript"
+      - "VS Code API"
+      - "Node.js"
+    github_url: "https://github.com/gowsi-08"
+    live_url: "https://marketplace.visualstudio.com/items?itemName=gowsi-08.files-to-word"
+    featured: false
+    thumbnail: "📝"
+
+  - title: "Get File Path — VS Code Extension"
+    description: "A VS Code extension that instantly retrieves the absolute file path with a single click, improving workflow efficiency for developers."
+    tech_stack:
+      - "TypeScript"
+      - "VS Code API"
+    github_url: "https://github.com/gowsi-08"
+    live_url: "https://marketplace.visualstudio.com/items?itemName=gowsi-08.get-file-path"
+    featured: false
+    thumbnail: "📂"
+
+# ── CODING PLATFORMS ─────────────────────────────────────────
+coding_platforms:
+  - platform: "LeetCode"
+    username: "gowsalya"
+    problems_solved: 225
+    rating: null
+    rank: "Solver"
+    profile_url: "https://leetcode.com/gowsalya"   # Replace with your actual profile URL
+    badge_color: "#FFA116"
+    icon: "🟧"
+
+  - platform: "GeeksForGeeks"
+    username: "gowsalya"
+    problems_solved: 150
+    rating: null
+    rank: "Institute Rank 7"
+    profile_url: "https://auth.geeksforgeeks.org/user/gowsalya"   # Replace with your actual profile URL
+    badge_color: "#2F8D46"
+    icon: "🟩"
+
+# ── ACHIEVEMENTS & CERTIFICATIONS ────────────────────────────
+achievements:
+
+  - title: "Data Structures and Algorithms using Java"
+    issuer: "NPTEL"
+    date: "2024"
+    credential_url: ""
+    icon: "🎓"
+    type: "certification"
+
+  - title: "225+ Problems Solved on LeetCode"
+    issuer: "LeetCode"
+    date: "Ongoing"
+    credential_url: "https://leetcode.com/gowsalya"   # Replace with your actual profile URL
+    icon: "💡"
+    type: "achievement"
+
+  - title: " GeeksForGeeks"
+    issuer: "GeeksForGeeks"
+    date: "Ongoing"
+    credential_url: "https://auth.geeksforgeeks.org/user/gowsalya"   # Replace with your actual profile URL
+    icon: "🥇"
+    type: "achievement"
+
+# ── EDUCATION ────────────────────────────────────────────────
+education:
+  - institution: "Kamaraj College of Engineering & Technology"
+    degree: "Bachelor of Engineering"
+    branch: "Computer Science & Engineering"
+    year_range: "2022 – 2026"
+    cgpa: "8.64 / 10"
+    location: "Virudhunagar, Tamil Nadu"
+    logo_color: "#005BAC"
+    highlights:
+      - "NPTEL Certified — Data Structures & Algorithms using Java"
+      - "Active competitive programmer on LeetCode and GeeksForGeeks"
+
+  - institution: "Kshatriya Girls Higher Secondary School"
+    degree: "Class XII (Higher Secondary)"
+    branch: "Science"
+    year_range: "2020 – 2022"
+    cgpa: "89.5%"
+    location: "Virudhunagar, Tamil Nadu"
+    logo_color: "#7C3AED"
+    highlights:
+      - "Higher Secondary — 89.5%"
+  - institution: "Kshatriya Girls Higher Secondary School"
+    degree: "Class X (Secondary)"
+    branch: "PCMB"
+    year_range: "2019 – 2020"
+    cgpa: "85.2%"
+    location: "Virudhunagar, Tamil Nadu"
+    logo_color: "#7C3AED"
+    highlights:
+      - "Secondary Education — 85.2%"
+
+# ── CONTACT ──────────────────────────────────────────────────
+contact:
+  heading: "Let's Build Something Together"
+  subheading: "I'm actively looking for full-time SDE / full-stack roles and open to interesting projects. Drop me a message!"
+  email: "gowsalyaanantharaj@gmail.com"
+  linkedin: "https://www.linkedin.com/in/gowsalya-anantharaj-653723280/"
+  github: "https://github.com/gowsi-08"
+  availability: "Available from April 2026"
+  admin_password: "gowsi2026"   # Password to access /#admin form responses panel
