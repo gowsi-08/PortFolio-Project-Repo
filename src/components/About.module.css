@@ -34,6 +34,7 @@
 
 .bio {
   padding: 24px 26px;
+  text-align: justify;
   font-size: 0.95rem;
   line-height: 1.8;
   color: var(--text-2);
