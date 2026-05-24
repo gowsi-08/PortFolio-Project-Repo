@@ -120,8 +120,8 @@
 /* Avatar */
 .avatarWrap {
   position: relative;
-  width: 240px;
-  height: 240px;
+  width: clamp(280px, 56vh, 500px);
+  height: clamp(280px, 56vh, 500px);
   flex-shrink: 0;
 }
 
@@ -188,6 +188,13 @@
   color: var(--text-4);
 }
 
+@media (max-width: 1024px) {
+  .avatarWrap {
+    width: clamp(240px, 45vh, 380px);
+    height: clamp(240px, 45vh, 380px);
+  }
+}
+
 @media (max-width: 768px) {
   .inner {
     grid-template-columns: 1fr;
@@ -196,6 +203,17 @@
   }
   .content { align-items: center; }
   .subtitle { text-align: center; }
-  .avatarWrap { width: 180px; height: 180px; margin: 0 auto; }
+  .avatarWrap { 
+    width: clamp(200px, 50vw, 280px);
+    height: clamp(200px, 50vw, 280px);
+    margin: 0 auto;
+  }
   .scrollIndicator { display: none; }
+}
+
+@media (max-width: 480px) {
+  .avatarWrap {
+    width: clamp(160px, 60vw, 220px);
+    height: clamp(160px, 60vw, 220px);
+  }
 }
