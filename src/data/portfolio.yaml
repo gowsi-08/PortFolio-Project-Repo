@@ -21,15 +21,10 @@ personal:
 # ── ABOUT ────────────────────────────────────────────────────
 about:
   bio: >
-    I'm a Computer Science and Engineering graduate who enjoys programming and building websites.
-    I've gained strong foundations in full-stack web development and AWS through internship at Priga Solutions
-    and as a project trainee at Zoho Corporation and through lots of self learning. I'm passionate about learning new technologies and
-    always looking to improve my skills. I'm eager to work on challenging projects beyond my current
-    knowledge — they offer the best opportunities to learn deeply and grow. Currently building a
-    project integrated with ML-based data processing.
+    Motivated and self-driven Computer Science and Engineering graduate with a strong passion for programming, full-stack web development, cloud technologies, and building real-world applications. Experienced in developing projects using modern web technologies and AWS through continuous self-learning, project training, and internships. Skilled in creating innovative solutions, exploring new technologies, and adapting quickly to challenging environments. Eager to contribute to innovative projects, collaborate with dynamic teams, and continuously grow as a software developer while building efficient and scalable solutions.
   highlights:
     - "240+ problems solved on LeetCode"
-    - "Ranked #7 at institution on GeeksForGeeks (180+ problems)"
+    - "Ranked #7 at institution on GeeksForGeeks (185+ problems)"
     
 
 # ── SKILLS ───────────────────────────────────────────────────
@@ -69,7 +64,7 @@ skills:
         level: 78
       
       - name: "AWS"
-        icon: "devicon-amazonwebservices-original"
+        icon: "/aws_icon.webp"
         level: 58
 
   - category: "Databases"
@@ -142,10 +137,10 @@ experience:
 
 # ── PROJECTS ─────────────────────────────────────────────────
 projects:
-
-  - title: "Happy Tails"
-    description: "A web-based pet adoption platform to help users adopt and rescue pets. Features include pet listing, adoption forms, and an admin panel. Won Top 4 Under 30 at Mini Technovision 2025."
+  - title: "SecureCloud"
+    description: "Developed SecureCloud, a secure cloud file storage platform using React, Express.js, MongoDB, and AWS S3 with JWT authentication, AES-256-GCM encrypted file storage, folder management, secure preview/download features, and a responsive SaaS-style dashboard for protected cloud-based file management."
     tech_stack:
+      - "AWS"
       - "React"
       - "Node.js"
       - "MongoDB"
@@ -153,9 +148,17 @@ projects:
     github_url: "https://github.com/gowsi-08"
     live_url: ""
     featured: true
-    thumbnail: "🐾"
+    thumbnail: ""
 
-
+  - title: "Track your Finance"
+    description: "Built a responsive personal finance tracker using React and GitHub API for cloud storage, featuring transaction and budget management, encrypted PIN authentication, loan calculator, PDF reports, and real-time multi-device sync. Live Demo pin: 2026"
+    tech_stack:
+      - "React"
+      - "GitHub API"
+    github_url: "https://github.com/gowsi-08/Accountify"
+    live_url: "https://trackurfinance.netlify.app/"
+    featured: true
+    thumbnail: "💶"
 
   - title: "Files to Word — VS Code Extension"
     description: "A custom VS Code extension that converts selected files directly into Word (.docx) format from within the editor. Published on the VS Code Marketplace."
@@ -163,38 +166,50 @@ projects:
       - "TypeScript"
       - "VS Code API"
       - "Node.js"
-    github_url: "https://github.com/gowsi-08"
-    live_url: "https://marketplace.visualstudio.com/items?itemName=gowsi-08.files-to-word"
-    featured: false
-    thumbnail: "📝"
+    github_url: "https://github.com/gowsi-08/files-to-word"
+    live_url: "https://marketplace.visualstudio.com/items?itemName=gowsalyaanantharaj.files-to-word"
+    featured: true
+    thumbnail: "📂"
 
   - title: "Get File Path — VS Code Extension"
     description: "A VS Code extension that instantly retrieves the absolute file path with a single click, improving workflow efficiency for developers."
     tech_stack:
       - "TypeScript"
       - "VS Code API"
-    github_url: "https://github.com/gowsi-08"
-    live_url: "https://marketplace.visualstudio.com/items?itemName=gowsi-08.get-file-path"
-    featured: false
-    thumbnail: "📂"
+    github_url: "https://github.com/gowsi-08/get-file-path"
+    live_url: "https://marketplace.visualstudio.com/items?itemName=gowsalyaanantharaj.drop-files-for-location"
+    featured: true
+    thumbnail: "📝"
+  
+  - title: "Happy Tails"
+    description: "A web-based pet adoption platform to help users adopt and rescue pets. Features include pet listing, adoption forms, and an admin panel. Won Top 4 Under 30 at Mini Technovision 2025."
+    tech_stack:
+      - "React"
+      - "Node.js"
+      - "MongoDB"
+      - "Express.js"
+    github_url: "https://github.com/gowsi-08/Happy-tails"
+    live_url: ""
+    featured: true
+    thumbnail: "🐾"
 
 # ── CODING PLATFORMS ─────────────────────────────────────────
 coding_platforms:
   - platform: "LeetCode"
-    username: "gowsalya"
-    problems_solved: 225
+    username: "GowsalyaAnantharaj"
+    problems_solved: 240+
     rating: null
     rank: "Solver"
-    profile_url: "https://leetcode.com/gowsalya"   # Replace with your actual profile URL
+    profile_url: "https://leetcode.com/u/GowsalyaAnantharaj/"   # Replace with your actual profile URL
     badge_color: "#FFA116"
     icon: "🟧"
 
   - platform: "GeeksForGeeks"
-    username: "gowsalya"
-    problems_solved: 150
+    username: "gowsalyaancllp"
+    problems_solved: 185+
     rating: null
     rank: "Institute Rank 7"
-    profile_url: "https://auth.geeksforgeeks.org/user/gowsalya"   # Replace with your actual profile URL
+    profile_url: "https://www.geeksforgeeks.org/user/gowsalyaancllp/"   # Replace with your actual profile URL
     badge_color: "#2F8D46"
     icon: "🟩"
 
@@ -211,15 +226,15 @@ achievements:
   - title: "225+ Problems Solved on LeetCode"
     issuer: "LeetCode"
     date: "Ongoing"
-    credential_url: "https://leetcode.com/gowsalya"   # Replace with your actual profile URL
+    credential_url: "https://leetcode.com/u/GowsalyaAnantharaj/"   # Replace with your actual profile URL
     icon: "💡"
     type: "achievement"
 
-  - title: " GeeksForGeeks"
+  - title: "185+ Problems Solved on GeeksForGeeks"
     issuer: "GeeksForGeeks"
     date: "Ongoing"
-    credential_url: "https://auth.geeksforgeeks.org/user/gowsalya"   # Replace with your actual profile URL
-    icon: "🥇"
+    credential_url: "https://www.geeksforgeeks.org/user/gowsalyaancllp/"   # Replace with your actual profile URL
+    icon: "💡"
     type: "achievement"
 
 # ── EDUCATION ────────────────────────────────────────────────
@@ -261,5 +276,5 @@ contact:
   email: "gowsalyaanantharaj@gmail.com"
   linkedin: "https://www.linkedin.com/in/gowsalya-anantharaj-653723280/"
   github: "https://github.com/gowsi-08"
-  availability: "Available from April 2026"
+  availability: "Available"
   admin_password: "gowsi2026"   # Password to access /#admin form responses panel

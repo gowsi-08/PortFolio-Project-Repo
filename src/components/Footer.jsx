@@ -14,7 +14,7 @@ export default function Footer({ data }) {
             {personal.name.split(' ')[0]}
             <span className={styles.bracket}>/&gt;</span>
           </span>
-          <p className={styles.copy}>© {year} {personal.name}. Built with React + Vite.</p>
+          <p className={styles.copy}>© {year} {personal.name}.</p>
         </div>
 
         <div className={styles.socials}>

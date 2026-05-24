@@ -54,6 +54,13 @@
   flex-shrink: 0;
 }
 
+.skillImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 4px;
+}
+
 .skillName {
   font-size: 0.855rem;
   font-weight: 600;

@@ -63,7 +63,11 @@ export default function Skills({ data }) {
               transition={{ delay: i * 0.04, duration: 0.3 }}
             >
               <div className={styles.skillIcon}>
-                <i className={`${skill.icon} colored`} />
+                {skill.icon.startsWith('/') || skill.icon.startsWith('http') ? (
+                  <img src={skill.icon} alt={skill.name} className={styles.skillImage} />
+                ) : (
+                  <i className={`${skill.icon} colored`} />
+                )}
               </div>
               <span className={styles.skillName}>{skill.name}</span>
             </motion.div>
